@@ -458,47 +458,46 @@ function AboutUs() {
             </section>
 
             {/* CTA Section */}
-            <section className="relative py-20 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">
-                {/* Background Pattern */}
-                <div className="absolute inset-0 opacity-10">
-                    <div className="absolute inset-0" style={{
-                        backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-                        backgroundSize: '40px 40px'
-                    }}></div>
-                </div>
+            <section className="py-20 bg-gray-50">
+                <div className="container mx-auto px-6">
+                    <div className="relative max-w-5xl mx-auto bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl overflow-hidden shadow-2xl">
+                        {/* Background Pattern */}
+                        <div className="absolute inset-0 opacity-10">
+                            <div className="absolute inset-0" style={{
+                                backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+                                backgroundSize: '40px 40px'
+                            }}></div>
+                        </div>
 
-                <div className="relative max-w-4xl mx-auto px-4 text-center">
-                    {/* Icon */}
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-[#c9a961] rounded-full mb-6">
-                        <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
+                        <div className="relative px-6 md:px-12 py-16 text-center">
+                            {/* Icon */}
+                            <div className="inline-flex items-center justify-center w-16 h-16 bg-[#c9a961] rounded-full mb-6">
+                                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                            </div>
+
+                            {/* Heading */}
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+                                Let's Build Excellence Together
+                            </h2>
+
+                            {/* Description */}
+                            <p className="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">
+                                Partner with us to unlock your organization's full potential. Our expert team is ready to design customized training solutions that drive real results.
+                            </p>
+
+                            {/* CTA Button */}
+                            <Link to="/contact">
+                                <button className="bg-[#c9a961] hover:bg-[#b89851] text-white px-10 py-4 text-lg font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl inline-flex items-center gap-3">
+                                    CONTACT US TODAY
+                                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                    </svg>
+                                </button>
+                            </Link>
+                        </div>
                     </div>
-
-                    {/* Heading */}
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                        Let's Build Excellence Together
-                    </h2>
-
-                    {/* Description */}
-                    <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">
-                        Partner with us to unlock your organization's full potential. Our expert team is ready to design customized training solutions that drive real results.
-                    </p>
-
-                    {/* CTA Button */}
-                    <Link to="/contact">
-                        <button className="bg-[#c9a961] hover:bg-[#b89851] text-white px-10 py-4 text-lg font-semibold tracking-wide transition-all duration-300 transform hover:scale-105 shadow-2xl inline-flex items-center gap-3">
-                            CONTACT US TODAY
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                            </svg>
-                        </button>
-                    </Link>
-
-                    {/* Additional Info */}
-                    <p className="text-sm text-gray-400 mt-6">
-                        Schedule a free consultation • Custom training solutions available
-                    </p>
                 </div>
             </section>
         </div>
