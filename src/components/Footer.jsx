@@ -57,15 +57,17 @@ function Footer() {
 
                     {/* Map Section */}
                     <div>
-                        <div className="bg-gray-700 h-40 rounded flex items-center justify-center text-gray-500">
-                            <div className="text-center">
-                                <svg className="w-12 h-12 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                </svg>
-                                <p className="text-xs">Location Map</p>
-                            </div>
-                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.9876543210123!2d7.4897!3d9.0579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sArea%2011%2C%20Garki%2C%20Abuja!5e0!3m2!1sen!2sng!4v1234567890123!5m2!1sen!2sng"
+                            width="100%"
+                            height="160"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                            title="Devongnosis Education Location"
+                            className="rounded"
+                        ></iframe>
                     </div>
                 </div>
             </div>
