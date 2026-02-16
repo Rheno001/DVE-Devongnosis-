@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/devalone-removebg-preview.png'
+import logo from '../assets/DEVONGNOSIS.png'
 import partner1 from '../assets/partners/AAPM.png'
 import partner2 from '../assets/partners/Apex.png'
 import partner3 from '../assets/partners/galilee.png'
